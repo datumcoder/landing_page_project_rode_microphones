@@ -1,0 +1,1 @@
+This is a  Free Code Boot Camp Project : Landing page webpage I chose Rode microphones because I wanted to continue the theme of microphones from the previous project to bulid a survey form webpage.
