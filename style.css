@@ -1,24 +1,70 @@
 
 
-#header-img{
-padding: 20px;
-width: 100px;
+#header{
+top: 0px;
+text-align: center;
+position: sticky;
+background-color:rgb(181,152,90) ;
 
+}
+h1{
+  font-family: monospace;
+  padding-bottom: ;
+}
+
+#nav-bar{
+
+font-family: monospace;
+text-align: center;
+top: 0;
+}
+
+#more_info {
+
+  text-align: center;
+  top: 0px;
+}
+
+#discount_offer {
+padding:50px;
+width: -100px;
+text-align: center;
+}
+
+
+#buy_on_online {
+justify-content: center; 
+text-align: center;
+color: whitesmoke;
+font-family: monospace;
+font-weight: bold;
+
+}
+#form {
+
+  background-color: black;
+  padding: 50px;
+  margin: -100px;
+  color: rgb(181,145,74);
+  font-family: monospace;
 }
 
 .flex-container {
+    justify-content: center;
     display: flex;
-    flex-wrap: nowrap;
-    background-color: DodgerBlue;
+    background-color: rgb(181,145,74);
+    margin: 0px -100px -150px -100px;
+    
+    
+    
   }
   
   .flex-container > div {
-    background-color: #f1f1f1;
-    width: 100px;
-    margin: 10px;
-    text-align: center;
-    line-height: 75px;
-    font-size: 30px;
+    background-color: rgb(233,198,97);
+    width: 200px;
+    margin: 30px;
+    line-height:40px;
+    font-size: 20px;
   }
 
 
@@ -28,15 +74,7 @@ width: 100px;
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
 .col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
+
 
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
